@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="career_page">
+  <header class="page_header">
+    <h1 class="page-title">Career Goal</h1>
+    <nav class="nav_links">
+        <a href="resume.html">Resume</a>
+        <a href="cover_letter.html">Cover Letter</a>
+    </nav>
+  </header>
+  <main>
+    <section class="contact_form_section">
+      <form action="https://wp.zybooks.com/forms-viewer.php" method="post" enctype="multipart/form-data" id="contactForm">
+        <fieldset>
+          <legend>Feel Free To Reach Out</legend>
+          <div class="form_field">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required>
+          </div>
+          <div class="form_field">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required>
+          </div>
+          <div class="form_field">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="form_field">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" name="phoneNumber" id="phoneNumber" required>
+          </div>
+          <div class="form_field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+          <div class="form_field">
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="image_section">
+      <h1>Photos</h1>
+      <img src="../assets/image/puppy.jpg" alt="Puppy" id="puppy-img">
+      <cite><a href="https://unsplash.com/s/photos/puppy">Credits: Unsplash</a></cite>
+    </section>
+
+    <section class="video_section">
+      <h3>Video</h3>
+      <video src="../assets/Video/mov_bbb.mp4" controls></video>
+      <cite><a href="https://peach.blender.org/">Video courtesy of Big Buck Bunny</a></cite>
+    </section>
+
+    <section class="audio_section">
+      <h3>Audio</h3>
+      <audio class="audio_player" src="../assets/audio/audio_asset.mp3" controls ></audio>
+      <cite><a href="https://pixabay.com/sound-effects/search/html/">Audio courtesy of Pixabay</a></cite>
+    </section>
+
+    <footer class="page_footer">
+        <p>&copy; 2025 Radia Ahmed. All rights reserved :)</p>
+      </footer>
+  </main>
+</body>
+
+</html>
